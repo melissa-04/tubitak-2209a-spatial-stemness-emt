@@ -1,0 +1,8 @@
+# Core analysis stack — versions confirmed/locked in notebook 00
+scanpy==1.12.1
+anndata==0.12.18
+
+# Added per stage as we reach them:
+#   cytotrace2-py==1.1.0.4   (Stage 3)
+#   cell2location            (Stage 4a — deconvolution)
+#   cytospace                (Stage 4b)
