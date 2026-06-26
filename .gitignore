@@ -1,0 +1,17 @@
+# Data and outputs (large / reproducible from code -> not tracked)
+data/
+figures/
+results/
+
+# Auto-generated Python files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments / secrets
+.venv/
+venv/
+.env
+
+# OS junk
+.DS_Store
