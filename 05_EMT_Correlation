@@ -28,31 +28,20 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 19,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "Bv3g7ulY5oEO",
-        "outputId": "b1a0342b-a71c-42e7-84b7-c17c212266a2"
+        "outputId": "fa97a746-9173-4781-b77d-91b9492ae1ef"
       },
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m79.5/79.5 kB\u001b[0m \u001b[31m3.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
-            "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m91.2/91.2 kB\u001b[0m \u001b[31m8.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
-            "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.2/2.2 MB\u001b[0m \u001b[31m38.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
-            "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m664.6/664.6 kB\u001b[0m \u001b[31m45.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
-            "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m176.1/176.1 kB\u001b[0m \u001b[31m16.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
-            "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m12.4/12.4 MB\u001b[0m \u001b[31m98.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
-            "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m79.1/79.1 kB\u001b[0m \u001b[31m4.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
-            "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m319.6/319.6 kB\u001b[0m \u001b[31m24.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
-            "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m9.2/9.2 MB\u001b[0m \u001b[31m107.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
-            "\u001b[?25h\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n",
-            "google-colab 1.0.0 requires pandas==2.2.2, but you have pandas 2.3.3 which is incompatible.\u001b[0m\u001b[31m\n",
-            "\u001b[0mMounted at /content/drive\n",
+            "Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount(\"/content/drive\", force_remount=True).\n",
             "scanpy: 1.12.2\n"
           ]
         },
@@ -60,7 +49,7 @@
           "output_type": "stream",
           "name": "stderr",
           "text": [
-            "/tmp/ipykernel_1842/93994165.py:11: FutureWarning: `__version__` is deprecated, use `importlib.metadata.version('scanpy')` instead\n",
+            "/tmp/ipykernel_1842/3282946075.py:10: FutureWarning: `__version__` is deprecated, use `importlib.metadata.version('scanpy')` instead\n",
             "  print(\"scanpy:\", sc.__version__)\n"
           ]
         }
@@ -94,9 +83,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "7JNO1Zu15ztt",
-        "outputId": "2aa93acc-7f4b-490c-e46f-a888384db40c"
+        "outputId": "68a5e17f-d160-484d-9819-a5ddd2ea199d"
       },
-      "execution_count": null,
+      "execution_count": 20,
       "outputs": [
         {
           "output_type": "stream",
@@ -128,9 +117,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "cXX6GdFU6AXX",
-        "outputId": "99204aaf-29b9-4428-8a61-a50c91933ec6"
+        "outputId": "ce03ebf3-c251-4204-80eb-ac6665495635"
       },
-      "execution_count": null,
+      "execution_count": 21,
       "outputs": [
         {
           "output_type": "stream",
@@ -197,9 +186,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "rXIeMkoA6D9O",
-        "outputId": "8638f11c-d760-42f3-b1e5-f59f31c3da65"
+        "outputId": "e22f5c00-8c69-4f20-d6ec-f338f7e1f552"
       },
-      "execution_count": null,
+      "execution_count": 22,
       "outputs": [
         {
           "output_type": "stream",
@@ -227,7 +216,7 @@
       "metadata": {
         "id": "llig4JTb7ID-"
       },
-      "execution_count": null,
+      "execution_count": 22,
       "outputs": []
     },
     {
@@ -261,9 +250,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "ydrpULG96Hr1",
-        "outputId": "d9eddbd4-ec07-4dbe-e5dd-80c4f99d7324"
+        "outputId": "e17467ce-72c1-4258-baf6-b9d34417b518"
       },
-      "execution_count": null,
+      "execution_count": 23,
       "outputs": [
         {
           "output_type": "stream",
@@ -302,9 +291,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "SAISCQ2Z6J53",
-        "outputId": "545b9195-c7d6-465e-bb11-89fa7f2f30e4"
+        "outputId": "800cc987-0a2b-4d41-bc6c-661aa3e72a41"
       },
-      "execution_count": null,
+      "execution_count": 24,
       "outputs": [
         {
           "output_type": "stream",
@@ -399,9 +388,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "USDzfzVn7JWI",
-        "outputId": "04e4c8ea-7de4-42b7-cad0-d706cf1e6ef0"
+        "outputId": "927a0271-e002-4de7-ffe7-704b7772245e"
       },
-      "execution_count": null,
+      "execution_count": 25,
       "outputs": [
         {
           "output_type": "stream",
@@ -462,9 +451,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "Xz8Fq1IP8WXA",
-        "outputId": "83f1ed3b-e26c-477f-97af-3e6866ce787d"
+        "outputId": "e6883615-9908-4c6a-ca78-f17dd96d4a53"
       },
-      "execution_count": null,
+      "execution_count": 26,
       "outputs": [
         {
           "output_type": "stream",
@@ -564,9 +553,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "gUenQTAI80-e",
-        "outputId": "3129eaec-1327-4074-f217-6adfa6a32a9d"
+        "outputId": "197741a1-614c-43bd-b17d-d2698a98341a"
       },
-      "execution_count": null,
+      "execution_count": 27,
       "outputs": [
         {
           "output_type": "stream",
@@ -643,9 +632,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "yf_ggftf9udz",
-        "outputId": "28f75061-30db-447f-8fef-14f0e47b92dc"
+        "outputId": "be1b0c44-1736-42f7-d3d1-27ab9c5b9202"
       },
-      "execution_count": null,
+      "execution_count": 28,
       "outputs": [
         {
           "output_type": "stream",
@@ -713,9 +702,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "VbX7U04i_N93",
-        "outputId": "b01d0922-b982-4b37-b2d9-889423b965dd"
+        "outputId": "6887bb23-041e-47f1-eb62-ee662dee7fba"
       },
-      "execution_count": null,
+      "execution_count": 29,
       "outputs": [
         {
           "output_type": "stream",
@@ -783,9 +772,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "RC6SDkm8_gvG",
-        "outputId": "5143c067-cf84-40e4-b991-25e01659d70a"
+        "outputId": "8674b5da-fbeb-4b63-b17e-44490f6f3f8d"
       },
-      "execution_count": null,
+      "execution_count": 30,
       "outputs": [
         {
           "output_type": "stream",
@@ -872,9 +861,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "NDml2tgV_5IK",
-        "outputId": "df50c2f7-646f-456f-f0c3-0ec3d8f19add"
+        "outputId": "e18b57d5-2d81-463d-a4cd-4a513a864300"
       },
-      "execution_count": null,
+      "execution_count": 31,
       "outputs": [
         {
           "output_type": "stream",
@@ -943,9 +932,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "55l-2k6EAcRD",
-        "outputId": "eec874fd-34ee-451d-bccf-89acaa9e326e"
+        "outputId": "4e76a1fa-83c8-4d60-f8b2-b592caf956ab"
       },
-      "execution_count": null,
+      "execution_count": 32,
       "outputs": [
         {
           "output_type": "stream",
@@ -1105,9 +1094,9 @@
           "height": 1000
         },
         "id": "BDdk4Xe3FODt",
-        "outputId": "abc8abcf-ea0b-4372-82ab-bc36b779ce20"
+        "outputId": "08b55486-c173-4bcf-e491-048b0fa74af2"
       },
-      "execution_count": null,
+      "execution_count": 33,
       "outputs": [
         {
           "output_type": "display_data",
